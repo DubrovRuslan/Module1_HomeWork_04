@@ -58,8 +58,6 @@ namespace Module1_HomeWork_04
                 case 2:
                     Console.WriteLine("В второй строке больше больше букв в верхнем регистре");
                     break;
-                default:
-                    break;
             }
         }
 
@@ -154,8 +152,6 @@ namespace Module1_HomeWork_04
                     case 'h':
                     case 'j':
                         ch = char.ToUpper(ch);
-                        break;
-                    default:
                         break;
                 }
 
